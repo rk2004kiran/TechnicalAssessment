@@ -1,0 +1,121 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User journeys tests on the products gocity boston all inclusive page",
+    "line": 2,
+    "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page",
+    "tags": [
+      {
+        "name": "@test",
+        "line": 1
+      }
+    ],
+    "uri": "Tests\\featureFiles\\productPage.feature",
+    "elements": [
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;user-should-redirect-to-home-page-after-clicking-home-link",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User should redirect to Home page after clicking Home link",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          },
+          {
+            "name": "@testo",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2575000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User clicks on the Home link on products all-inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User should redirect to home page and 'Experience more with Go Boston' should be displayed on Home page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
