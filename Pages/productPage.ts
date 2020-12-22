@@ -6,6 +6,7 @@ export class ProductPage extends HelpersClass{
     public productTitleElement = $('[class="product-title"]');
     public secondary_menu_item = $$('[class="secondary-menu--item"]');
     public content_title = $('[class="content--title"]');
+    public productsStackHeader = $('.products-stack-header--title');
     public key_selling_points_item = $$('[class="key-selling-points-item--description"]');
     public dropDownElement = $('[class="form-control"]');
     public orderTotal = element(by.xpath('.//*[@class="lc-cart__prices-total lc-font__regular"]//*[@class="lc-cart__prices-number "]'));
@@ -296,6 +297,12 @@ export class ProductPage extends HelpersClass{
             await this.elementToBePresent(this.signUpConfirmation);
             return await this.signUpConfirmation.getText();
         }
+    }
+    public async clickBuyButton() {
+        await this.elementToBePresent(this.productBuy.get(1))
+        await this.productBuy.get(1).click();
+        await this.elementToBePresent(this.productsStackHeader);
+        return await this.productsStackHeader.getText();
     }
 
 }

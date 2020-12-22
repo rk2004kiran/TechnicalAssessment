@@ -9,6 +9,9 @@ Feature: User journeys tests on the products gocity boston all inclusive page
         When User clicks on the Home link on products all-inclusive page
         Then User should redirect to home page and 'Experience more with Go Boston' should be displayed on Home page
 
+    Scenario: User should redirect to pricing page after clicking Buy button
+        When User clicks on Buy button on products all-inclusive page
+        Then User should redirect tp pricing page and 'Choose your All-Inclusive pass' title should be displayed
 
     Scenario: Click on What's included from secondary-menu
         When User clicks on the 'What's included' from 'secondary-menu item'

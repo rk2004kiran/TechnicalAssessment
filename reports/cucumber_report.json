@@ -21,10 +21,6 @@
           {
             "name": "@test",
             "line": 1
-          },
-          {
-            "name": "@testo",
-            "line": 7
           }
         ],
         "type": "scenario",
@@ -50,7 +46,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2575000000
+              "duration": 2521000000
             }
           },
           {
@@ -63,7 +59,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 262000000
             }
           },
           {
@@ -76,7 +72,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3217000000
+              "duration": 3267000000
             }
           },
           {
@@ -111,7 +107,2457 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;user-should-redirect-to-pricing-page-after-clicking-buy-button",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User should redirect to pricing page after clicking Buy button",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User clicks on Buy button on products all-inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1731000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User should redirect tp pricing page and 'Choose your All-Inclusive pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;click-on-what's-included-from-secondary-menu",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Click on What's included from secondary-menu",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1322000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User clicks on the 'What's included' from 'secondary-menu item'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User should be redirected to the 'what-you-get' page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "'What’s included with the Go Boston All-Inclusive pass' content title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;click-on-how-it-works-from-secondary-menu",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Click on How it works from secondary-menu",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User clicks on the 'How it works' from 'secondary-menu item'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1885000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User should be redirected to the 'how-it-works' page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "'How does the Go Boston All–Inclusive pass work?' content title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;click-on-attractions-from-secondary-menu",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Click on Attractions from secondary-menu",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1291000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User clicks on the 'Attractions' from 'secondary-menu item'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "User should be redirected to the 'attractions' page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "'All-in admission to 45+ Boston attractions' content title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;click-on-real-customer-savings-from-secondary-menu",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Click on Real customer savings from secondary-menu",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1331000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "User clicks on the 'Real customer savings' from 'secondary-menu item'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1926000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "User should be redirected to the 'customer-savings' page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "'Real Customer Savings' content title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;click-on-plan-your-trip-from-secondary-menu",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Click on Plan your trip from secondary-menu",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "User clicks on the 'Plan your trip' from 'secondary-menu item'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2827000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "User should be redirected to the 'guidebook' page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "'Download your free Boston guidebook' content title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;click-on-unlimited-admission.-great-savings-and-easy-budgeting-from-view-content",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Click on Unlimited admission. Great savings and easy budgeting from view-content",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "User clicks on the 'Unlimited admission. Great savings and easy budgeting. ' from 'view content'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "User should be redirected to the 'what-you-get' page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "'What’s included with the Go Boston All-Inclusive pass' content title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;click-on-1,-2,-3,-5,-or-7-day-pass-duration's-to-pick-from-from-view-content",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Click on 1, 2, 3, 5, or 7-day pass duration's to pick from from view-content",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "User clicks on the '1, 2, 3, 5, or 7-day pass duration's to pick from' from 'view content'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "User should be redirected to the 'what-you-get' page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "'What’s included with the Go Boston All-Inclusive pass' content title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;click-on-all-on-one-digital-pass.-enjoy-contactless-entry.-from-view-content",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Click on All on one digital pass. Enjoy contactless entry. from view-content",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1540000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "User clicks on the 'All on one digital pass. Enjoy contactless entry.' from 'view content'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1444000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "User should be redirected to the 'what-you-get' page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "'What’s included with the Go Boston All-Inclusive pass' content title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;click-on-plan-in-advance-or-visit-on-the-fly.-use-our-expert-app-to-breeze-between-attractions.-from-view-content",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Click on Plan in advance or visit on the fly. Use our expert App to breeze between attractions. from view-content",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1041000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "User clicks on the 'Plan in advance or visit on the fly. Use our expert App to breeze between attractions.' from 'view content'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "User should be redirected to the 'what-you-get' page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "'What’s included with the Go Boston All-Inclusive pass' content title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;checkout-button-should-be-not-clickable-and-cart-icon-should-not-display-when-no-pass-item-is-added-to-the-cart",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "Checkout button should be not clickable and cart icon should not display when no pass item is added to the cart",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1055000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 64,
+            "name": "User closes 'Want to win a $250 voucher?' if displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "User clicks on All-Inclusive pass drop down and select '1 day pass from $65' 'd1'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "User adds 'one' 'Adult' item to cart",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "User should 'see' that cart icon is displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "User deletes the added item",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "User should 'not see' that cart icon is displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "Checkout button should be 'Disabled'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;all-attractions-should-display-after-clicking-see-all-attractions-link",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "All attractions should display after clicking See all attractions link",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "User clicks on See all attractions",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "User should see all attractions cards",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;risk-free-guarantee-page-should-be-displayed-after-clicking-learn-more-on-all-inclusive-page",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Risk free guarantee page should be displayed after clicking Learn more on all inclusive page",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "User clicks Learn more link on all inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1605000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "User should redirect to 'risk-free-guarantee' page and 'New! 90-day cancellation'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;all-food-&-drink-attractions-should-display-when-user-filter-with-food-&-drink",
+        "keyword": "Scenario",
+        "line": 80,
+        "name": "All Food & Drink attractions should display when User filter with Food & Drink",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 81,
+            "name": "User closes 'Want to win a $250 voucher?' if displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "User clicks on Filter and selects 'Food & Drink'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 621000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "'Samuel Adams Brewery Tour and Souvenir Glass' only should display after selecting Food & Drink attraction",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "User Quick view on  'Samuel Adams Brewery Tour and Souvenir Glass' card",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "'Samuel Adams Brewery Tour and Souvenir Glass' Attractions quickview content should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;attractions-should-be-displayed-in-ascending-order-after-selecting-a-z-from-sort",
+        "keyword": "Scenario",
+        "line": 87,
+        "name": "Attractions should be displayed in ascending order after selecting A-Z from Sort",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "User closes 'Want to win a $250 voucher?' if displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 89,
+            "name": "User clicks on Filter and selects 'Outdoor'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "User clicks Sort and select A-Z",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 524000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 91,
+            "name": "All attractions cards should be displayed in ascending order",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;add-1-day-pass-from-$65-to-basket-proceed-checkout",
+        "keyword": "Scenario",
+        "line": 93,
+        "name": "Add 1 day pass from $65 to basket proceed checkout",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          },
+          {
+            "name": "@clean",
+            "line": 92
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\timeOut.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 547000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 94,
+            "name": "User closes 'Want to win a $250 voucher?' if displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 95,
+            "name": "User clicks on All-Inclusive pass drop down and select '1 day pass from $65' 'd1'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 96,
+            "name": "'1 day pass from $' '65' option from drop down should be selected",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 97,
+            "name": "User adds 'one' 'Adult' item to cart",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "User should 'see' that cart icon is displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "cart icon counter should be '1'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "Order Total should be 'One Adult' price and Checkout button should be 'Enabled'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 101,
+            "name": "User clicks on Checkout button",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "user redirects to 'Review your order' page and order total should be '$65'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "User selects 'February 2021' '20' as a visiting date to Boston",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "selected date should be '02-20-2021' and user clicks Continue to payment button",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5907000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "User redirects to 'Payment' page and order total should be '$65'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 497000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;add-1-day-pass-from-$65-to-basket-proceed-checkout-through-cart",
+        "keyword": "Scenario",
+        "line": 107,
+        "name": "Add 1 day pass from $65 to basket proceed checkout through Cart",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          },
+          {
+            "name": "@clean",
+            "line": 106
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\timeOut.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 411000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 108,
+            "name": "User closes 'Want to win a $250 voucher?' if displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 109,
+            "name": "User clicks on All-Inclusive pass drop down and select '2 day pass from $89' 'd2'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 110,
+            "name": "'2 day pass from $' '89' option from drop down should be selected",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 111,
+            "name": "User adds 'one' 'Adult' item to cart",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 112,
+            "name": "User should 'see' that cart icon is displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 113,
+            "name": "Order Total should be 'One Adult' price and Checkout button should be 'Enabled'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 114,
+            "name": "User clicks on cart icon and 'Your cart' order total '$89' should be displayed and user selects Checkout button",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 115,
+            "name": "user redirects to 'Review your order' page and order total should be '$89'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 116,
+            "name": "User selects 'February 2021' '20' as a visiting date to Boston",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 117,
+            "name": "selected date should be '02-20-2021' and user clicks Continue to payment button",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 118,
+            "name": "User redirects to 'Payment' page and order total should be '$89'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 567000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;signup-the-user-on-products-all-inclusive-page",
+        "keyword": "Scenario",
+        "line": 120,
+        "name": "Signup the user on products all inclusive page",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 121,
+            "name": "User closes 'Want to win a $250 voucher?' if displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2032000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 122,
+            "name": "user enters 'test12324@gmail.com' inside email address type box and clicks checkbox and Submit button",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 123,
+            "name": "'Thanks for signing up!' popup message should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-journeys-tests-on-the-products-gocity-boston-all-inclusive-page;signup-the-user-on-products-all-inclusive-page",
+        "keyword": "Scenario",
+        "line": 125,
+        "name": "Signup the user on products all inclusive page",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Gocity Boston Products All Inclusive page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be on All-Inclusive page and 'All-Inclusive Pass' title should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 456000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 126,
+            "name": "User closes 'Want to win a $250 voucher?' if displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 127,
+            "name": "user enters 'empty email' inside email address type box Submit button",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 128,
+            "name": "'Email field is required.' and 'Please agree to our privacy policy.' error message should be displayed",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
             }
           }
         ]

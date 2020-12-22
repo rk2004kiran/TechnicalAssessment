@@ -188,5 +188,13 @@ export class ProductPageSteps extends PaymentPage {
         expect(this.contentTitleStep[0]).to.equal(errorMessage1);
         expect(this.contentTitleStep[1]).to.equal(errorMessage2);  
     }
+    @when(/^User clicks on Buy button on products all-inclusive page$/)
+    public async clickButButtonStep() {
+        this.contentTitleStep = await this.clickBuyButton();
+    }
+    @then(/^User should redirect tp pricing page and '(.*)' title should be displayed$/)
+    public async onPricingPage(titleMessage: string) {
+        expect(this.contentTitleStep).to.equal(titleMessage);
+    }
 
 }
