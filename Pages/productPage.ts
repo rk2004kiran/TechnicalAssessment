@@ -119,13 +119,11 @@ export class ProductPage extends HelpersClass{
     * @clickAndSelectFromProductStackDropDown function will click on the Choose your All-Inclusive pass drop down and will select the @option
     */
     public async clickAndSelectFromProductStackDropDown(option: string) {
-        // await this.clickSubmit();
-        // await this.errorMessage();
         await browser.executeScript('window.scrollTo(94, 800);');
         await this.elementToBePresent(this.dropDownElement);
         await this.dropDownElement.click();
         await $(`option[value="Bos_Prod_Go_${option}"]`).click();
-        await browser.sleep(4000);
+        await browser.sleep(2000);
     }
     /**
      * @addAdultPassToCart function will add adult pass to the cart
@@ -136,7 +134,7 @@ export class ProductPage extends HelpersClass{
         await this.elementToBePresent(this.cartIcon);
     }
     public async deleteAdultItem() {
-        await browser.sleep(4000);
+        await browser.sleep(2000);
         await this.elementToBePresent(this.cartItemDecrease);
         await this.cartItemDecrease.get(0).click();
         await this.elementToBePresent(this.productBuy.get(1));

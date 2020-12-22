@@ -196,5 +196,4 @@ export class ProductPageSteps extends PaymentPage {
     public async onPricingPage(titleMessage: string) {
         expect(this.contentTitleStep).to.equal(titleMessage);
     }
-
 }
